@@ -9,7 +9,6 @@ RewriteRule ^.* - [F,L]
 
 RewriteEngine on
 RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?skumartimbers.bloomerzz.codes [NC]
 RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?google.com [NC]
 RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?maps.google.com [NC]
 RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?facebook.com [NC]
